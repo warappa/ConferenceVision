@@ -4,10 +4,10 @@
              xmlns:effects="clr-namespace:ConferenceVision.Effects"
              xmlns:local="clr-namespace:ConferenceVision.Views.Renderers"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-             
              ios:Page.UseSafeArea="true"
              Title="About"
-             x:Class="ConferenceVision.Views.AboutView">
+             x:Class="ConferenceVision.Views.AboutView"
+             xmlns:xcss="clr-namespace:XamlCSS.XamarinForms;assembly=XamlCSS.XamarinForms">
     <ContentPage.Resources>
         <StyleSheet>
             <![CDATA[
@@ -51,31 +51,31 @@
                        />
                 
                 <StackLayout Margin="0,0,0,20">
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin.Forms" 
                                             Url="https://github.com/xamarin/Xamarin.Forms" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin.Essentials" 
                                             Url="https://github.com/xamarin/Essentials" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="XamarinCommunityToolkit" 
                                             Url="https://github.com/xamarin/XamarinCommunityToolkit" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin Live Reload" 
                                             Url="http://aka.ms/livereload" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="SkiaSharp" 
                                             Url="https://github.com/mono/SkiaSharp" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="MarkdownView" 
                                             Url="https://github.com/aloisdeniel/MarkdownView" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="FFImageLoading" 
                                             Url="https://github.com/luberda-molinet/FFImageLoading" 
                                             Icon="&#xF65E;"/>
@@ -87,23 +87,23 @@
                        />
                 
                 <StackLayout Margin="0,0,0,20">
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="FlexLayout" 
                                             Url="https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/layouts/flex-layout" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="StyleSheets" 
                                             Url="https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/styles/css" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Visual State Manager" 
                                             Url="https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/visual-state-manager" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Right-to-Left" 
                                             Url="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/localization/rtl" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin University Lightning Lectures" 
                                             Url="https://university.xamarin.com/lightninglectures" 
                                             Icon="&#xE945;"/>
@@ -115,31 +115,31 @@
                        />
                 
                 <StackLayout Margin="0,0,0,20">
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Project Source Code" 
                                             Url="https://github.com/davidortinau/ConferenceVision" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin.Forms" 
                                             Url="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/" 
                                             Icon="&#xEDCB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Cognitive Services: Computer Vision API" 
                                             Url="https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/" 
                                             Icon="&#xE774;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="AppCenter" 
                                             Url="https://appcenter.ms" 
                                             Icon="&#xE774;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="TensorFlowSharp" 
                                             Url="https://github.com/migueldeicaza/TensorFlowSharp" 
                                             Icon="&#xF65E;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Fabric Font Icons" 
                                             Url="https://developer.microsoft.com/en-us/fabric#/styles/icons" 
                                             Icon="&#xE774;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Xamarin University" 
                                             Url="https://university.xamarin.com" 
                                             Icon="&#xE774;"/>
@@ -152,19 +152,19 @@
                        />
                 
                 <StackLayout>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Add a CarouselView" 
                                             Url="Activity_CarouselView.md" 
                                             Icon="&#xF6BB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Vision API Key" 
                                             Url="Activity_ConnectToVision.md" 
                                             Icon="&#xF6BB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="Search" 
                                             Url="Activity_ImplementSearch.md" 
                                             Icon="&#xF6BB;"/>
-                    <local:HyperlinkRowView StyleClass="hyperlink" 
+                    <local:HyperlinkRowView xcss:Css.Class="hyperlink" 
                                             Title="My Profile" 
                                             Url="Activity_StartHere.md"
                                             Icon="&#xF6BB;"/>

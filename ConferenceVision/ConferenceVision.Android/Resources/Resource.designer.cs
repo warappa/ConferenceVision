@@ -1662,6 +1662,8 @@ namespace ConferenceVision.Droid
 			global::FormsCommunityToolkit.Effects.Droid.Resource.Styleable.ViewStubCompat_android_id = global::ConferenceVision.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::FormsCommunityToolkit.Effects.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ConferenceVision.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::FormsCommunityToolkit.Effects.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::ConferenceVision.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::PCLStorage.Resource.String.ApplicationName = global::ConferenceVision.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::ConferenceVision.Droid.Resource.String.Hello;
 			global::Xam.Plugins.OnDeviceCustomVision.Resource.String.library_name = global::ConferenceVision.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ConferenceVision.Droid.Resource.Attribute.actionBarSize;
 		}
@@ -3844,26 +3846,8 @@ namespace ConferenceVision.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f020154
-			public const int avd_hide_password_1 = 2130837844;
-			
-			// aapt resource value: 0x7f020155
-			public const int avd_hide_password_2 = 2130837845;
-			
-			// aapt resource value: 0x7f020156
-			public const int avd_hide_password_3 = 2130837846;
-			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
-			
-			// aapt resource value: 0x7f020157
-			public const int avd_show_password_1 = 2130837847;
-			
-			// aapt resource value: 0x7f020158
-			public const int avd_show_password_2 = 2130837848;
-			
-			// aapt resource value: 0x7f020159
-			public const int avd_show_password_3 = 2130837849;
 			
 			// aapt resource value: 0x7f020056
 			public const int back = 2130837590;
@@ -5502,6 +5486,12 @@ namespace ConferenceVision.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a0040
+			public const int ApplicationName = 2131361856;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int Hello = 2131361855;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int abc_action_bar_home_description = 2131361813;

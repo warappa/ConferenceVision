@@ -8,18 +8,19 @@
              xmlns:effects="clr-namespace:ConferenceVision.Effects"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              BackgroundColor="Black" BackgroundImage=""
-             x:Class="ConferenceVision.Views.UserProfileView">
+             x:Class="ConferenceVision.Views.UserProfileView"
+             xmlns:xcss="clr-namespace:XamlCSS.XamarinForms;assembly=XamlCSS.XamarinForms">
     <!-- TODO Uncomment StyleSheet -->
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <StyleSheet Source="../Styles/UserProfileView.css"/>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
     
     <ContentPage.Content>
         <ScrollView x:Name="MyScrollView">
             <ScrollView.Effects>
                 <effects:ContentInsetAdjustmentBehaviorEffect />
             </ScrollView.Effects>
-            <AbsoluteLayout class="profile-content">
+            <AbsoluteLayout xcss:Css.Class="profile-content">
                 <!-- TODO Header Image -->
                 <Image Source="bg_cube"
                        AbsoluteLayout.LayoutBounds="0,0,1,292"
@@ -52,11 +53,11 @@
                     <skia:SKCanvasView 
                         HeightRequest="70"
                         PaintSurface="OnCanvasViewPaintSurface" />
-                    
-                    <FlexLayout x:Name="FlexContainer" class="bio-container">
+
+                    <FlexLayout x:Name="FlexContainer" xcss:Css.Class="bio-container">
                         <!-- TODO Update Bio -->
                         <Label Text="Bio" 
-                               class="group-title"
+                               xcss:Css.Class="group-title"
                                FlexLayout.Basis="100%"
                                HeightRequest="20" 
                          />

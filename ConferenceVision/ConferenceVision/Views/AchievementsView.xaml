@@ -5,12 +5,14 @@
              xmlns:effects="clr-namespace:ConferenceVision.Effects"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
              ios:Page.UseSafeArea="True"
-             Title="Achievements"
-             x:Class="ConferenceVision.Views.AchievementsView">
+             Title="Achievementsfdsd"             
+             x:Class="ConferenceVision.Views.AchievementsView"
+             xmlns:xcss="clr-namespace:XamlCSS.XamarinForms;assembly=XamlCSS.XamarinForms"
+             >
 
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <StyleSheet Source="../Styles/AchievementsView.css"/>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="info" Clicked="Handle_InfoClicked"/>
@@ -28,12 +30,12 @@
                 </ScrollView.Margin>
             
                 <local:RepeaterView x:Name="AchievementsContainer" 
-                                    class="container"
+                                    xcss:Css.Class="container" 
                                     ItemsSource="{Binding Achievements}">
                     <local:RepeaterView.ItemTemplate>
                         <DataTemplate>
-                            <local:AchievementView class="item" />
-                        </DataTemplate>
+                            <local:AchievementView xcss:VisualTreeCell.Include="True" xcss:Css.Class="item" />
+                    </DataTemplate>
                     </local:RepeaterView.ItemTemplate>
                 </local:RepeaterView>
             

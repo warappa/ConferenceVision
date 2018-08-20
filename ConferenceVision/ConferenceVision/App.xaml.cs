@@ -6,6 +6,7 @@ using Xamarin.Forms.Xaml;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using XamlCSS.XamarinForms;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ConferenceVision
@@ -18,6 +19,8 @@ namespace ConferenceVision
 
 		public App()
 		{
+            Css.Initialize(this);
+
 #if DEBUG
 			/*
              * Live Reload Preview is Windows only. On macOS it'll do nothing.
